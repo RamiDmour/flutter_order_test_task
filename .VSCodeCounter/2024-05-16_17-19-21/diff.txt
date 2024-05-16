@@ -1,0 +1,67 @@
+Date : 2024-05-16 17:19:21
+Directory : /Users/ramidmour/development/flutter_order_test_task
+Total : 16 files,  82 codes, -5 comments, 20 blanks, all 97 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         15 |         81 |         -5 |         20 |         96 |
+| YAML     |          1 |          1 |          0 |          0 |          1 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                             | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                |         16 |         82 |         -5 |         20 |         97 |
+| . (Files)                                                                                                                        |          1 |          1 |          0 |          0 |          1 |
+| lib                                                                                                                              |         15 |         81 |         -5 |         20 |         96 |
+| lib/core                                                                                                                         |          3 |         29 |          0 |          6 |         35 |
+| lib/core/di                                                                                                                      |          1 |          6 |          0 |          3 |          9 |
+| lib/core/local_database                                                                                                          |          2 |         23 |          0 |          3 |         26 |
+| lib/features                                                                                                                     |         12 |         52 |         -5 |         14 |         61 |
+| lib/features/category                                                                                                            |          5 |         32 |         -1 |          8 |         39 |
+| lib/features/category/data                                                                                                       |          1 |          0 |         -1 |          0 |         -1 |
+| lib/features/category/data/repository                                                                                            |          1 |          0 |         -1 |          0 |         -1 |
+| lib/features/category/domain                                                                                                     |          4 |         32 |          0 |          8 |         40 |
+| lib/features/category/domain/model                                                                                               |          1 |         -1 |          0 |         -1 |         -2 |
+| lib/features/category/domain/use_case                                                                                            |          3 |         33 |          0 |          9 |         42 |
+| lib/features/order                                                                                                               |          4 |         21 |         -1 |          7 |         27 |
+| lib/features/order/data                                                                                                          |          2 |          2 |         -1 |          1 |          2 |
+| lib/features/order/data/datasources                                                                                              |          2 |          2 |         -1 |          1 |          2 |
+| lib/features/order/data/datasources/local                                                                                        |          2 |          2 |         -1 |          1 |          2 |
+| lib/features/order/data/datasources/local (Files)                                                                                |          1 |          0 |         -1 |          0 |         -1 |
+| lib/features/order/data/datasources/local/entity                                                                                 |          1 |          2 |          0 |          1 |          3 |
+| lib/features/order/domain                                                                                                        |          2 |         19 |          0 |          6 |         25 |
+| lib/features/order/domain/use_case                                                                                               |          2 |         19 |          0 |          6 |         25 |
+| lib/features/table                                                                                                               |          3 |         -1 |         -3 |         -1 |         -5 |
+| lib/features/table/data                                                                                                          |          3 |         -1 |         -3 |         -1 |         -5 |
+| lib/features/table/data/datasources                                                                                              |          3 |         -1 |         -3 |         -1 |         -5 |
+| lib/features/table/data/datasources/local                                                                                        |          3 |         -1 |         -3 |         -1 |         -5 |
+| lib/features/table/data/datasources/local (Files)                                                                                |          1 |          0 |         -1 |          0 |         -1 |
+| lib/features/table/data/datasources/local/entity                                                                                 |          2 |         -1 |         -2 |         -1 |         -4 |
++----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                                         | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/ramidmour/development/flutter_order_test_task/lib/core/di/get_it.dart                                                     | Dart     |          6 |          0 |          3 |          9 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/core/local_database/app_database.dart                                   | Dart     |         12 |          0 |          0 |         12 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/core/local_database/date_time_converter.dart                            | Dart     |         11 |          0 |          3 |         14 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/features/category/data/repository/category_repository_impl.dart         | Dart     |          0 |         -1 |          0 |         -1 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/features/category/domain/model/category.dart                            | Dart     |         -1 |          0 |         -1 |         -2 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/features/category/domain/use_case/delete_category_use_case.dart         | Dart     |         11 |          0 |          3 |         14 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/features/category/domain/use_case/get_category_by_id_use_case.dart      | Dart     |         11 |          0 |          3 |         14 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/features/category/domain/use_case/update_category_use_case.dart         | Dart     |         11 |          0 |          3 |         14 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/features/order/data/datasources/local/entity/order_entity.dart          | Dart     |          2 |          0 |          1 |          3 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/features/order/data/datasources/local/order_local_datasource.dart       | Dart     |          0 |         -1 |          0 |         -1 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/features/order/domain/use_case/create_order_use_case.dart               | Dart     |          8 |          0 |          3 |         11 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/features/order/domain/use_case/get_all_orders.dart                      | Dart     |         11 |          0 |          3 |         14 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/features/table/data/datasources/local/entity/table_entity.dart          | Dart     |         -1 |         -1 |         -1 |         -3 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/features/table/data/datasources/local/entity/table_order_entity.dart    | Dart     |          0 |         -1 |          0 |         -1 |
+| /Users/ramidmour/development/flutter_order_test_task/lib/features/table/data/datasources/local/table_order_local_datasource.dart | Dart     |          0 |         -1 |          0 |         -1 |
+| /Users/ramidmour/development/flutter_order_test_task/pubspec.yaml                                                                | YAML     |          1 |          0 |          0 |          1 |
+| Total                                                                                                                            |          |         82 |         -5 |         20 |         97 |
++----------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
